@@ -18,6 +18,7 @@ export const Input = ({id, type, label, changeProp}) =>{
           onChange={changeProp}
           variant="outlined"
           size='small'
+            required
           sx={{
               marginLeft:"3%",
               width:"55%",
